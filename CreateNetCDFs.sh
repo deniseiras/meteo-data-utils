@@ -85,7 +85,7 @@ idx=`expr $idx + 1`
 
 #if [ $idx -gt 9 ] ; then break; fi
 done
-cdo cat GFCTNMC${year}*F.fct.T062L28.nc GFCTNMC${year}.fct.T062L28___ALL.nc
+cdo cat GFCTNMC${year}*F.fct.T062L${vertRes}.nc GFCTNMC${year}.fct.T062L${vertRes}___ALL.nc
 rm newzaxis lista
 
 
